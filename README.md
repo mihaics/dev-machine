@@ -39,7 +39,7 @@ terraform init
 terraform plan
 terraform apply
 ```
-this should create automatically an VM called "<hostname>", which can be accessed over ssh:
+this should create automatically an VM called "$hostname", which can be accessed over ssh:
 (of course, if you have set the router to automatically register in DNS the machine, using the mac_address)
 
 

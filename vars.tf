@@ -50,15 +50,15 @@ variable "os_user" {
 
 variable "gitlab_registry_token" {
   description = "acess to gitlab in base64 format"
-  default = "\"bWloYWkuY3Nha3lAZ21haWwuY29tOlRXN3pEVkNteHJNMXlULWZEV0JC\""
+  default = ""
 }
 
 variable "root_ssh_key" {
   description = "Public key which will be added to .ssh/authorized_keys for root user"
-  default = "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq6cUeVqUAZ7ln2qFxLwpYcM8u1J20upM6VGmv4HxNTi9yl1sOfGr/9fodVVBFquk25bhiUzBAA41GuKVpXzroZU4QBp6roUqvJVavwtG6VNZB+F8SEa4puLJ4cf3gqgTiuyIeSx5S19weke0ktoj6o+b1L84Eoa9pBh1LuWdO4f0jbRy4deFpm8VIVRGjLG58NKVTrNvGKThZG+O3qPtoetlRS1Z3JXVVea0nFBdPZxj9F03YGeGKOC8YDL6XXbuO+lKXWEyUxt6kW6Hlb2XQwrkkABmIUHq4r8pnmZilfpuTB8B4Vtwj4ZX+5y6DoE9oLVXOLW/AP1As/DKC8ixZQ== mihai@i5737z.sysop-consulting.ro"
+  default = ""
 }
 
 variable "dev_ssh_id" {
   description = "id used to import ssh keys for developer access, github or other"
-  default = "gh:mihaics"
+  default = ""
 }
